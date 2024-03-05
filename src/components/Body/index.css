@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.leftNav-container {
+  background-color: #e2e8f0;
+  padding: 15px;
+  align-self: stretch;
+  color: #475569;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.rightNav-container {
+  background-color: #e2e8f0;
+  padding: 15px;
+  align-self: stretch;
+  color: #475569;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.left-ul {
+  padding-left: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+.left-li {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.leftNav-heading {
+  font-size: 20px;
+}
+.contentContainer {
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 20px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.right-li {
+  border: 1px solid #475569;
+  margin-right: 20px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 450px;
+  }
+  .contentContainer {
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 280px;
+  }
+  .left-ul {
+    flex-direction: column;
+  }
+  .leftNav-container {
+    width: 200px;
+  }
+  .rightNav-container {
+    width: 200px;
+  }
+  .right-li {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.control-container {
+  background-color: #475569;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ffffff;
+  font-size: 35px;
+}
+.control-ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.control-checkbox {
+  margin-right: 10px;
+}
+.control-label {
+  color: #ffffff;
+  font-size: 15px;
+}
+.control-li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .control-container {
+    padding: 5px;
+    padding-left: 60px;
+  }
+}

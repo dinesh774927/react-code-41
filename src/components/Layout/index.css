@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.Layout-container {
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .Layout-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
